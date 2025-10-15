@@ -7,7 +7,7 @@
       ],
     },
     swAllowedHostnames = ['localhost', '127.0.0.1'],
-    wispUrl ='wss://anura.pro'
+    wispUrl =
       (location.protocol === 'https:' ? 'wss' : 'ws') +
       '://' +
       location.host +
